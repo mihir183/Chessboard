@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 805px;
+    height: 830px;
+    /* aspect-ratio: 1; */
+    margin: auto;
+    border: solid 2px black;
+}
+
+.box1, .box2{
+    width: calc(801px/8);
+    aspect-ratio: 1;
+    float: left;
+}
+
+.box1{
+    background-color: white;
+    color: black;
+}
+
+.box2{
+    background-color: black;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.container p{
+    font-size: 80px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.container p:hover{
+    transform: scale(1.2);
+}

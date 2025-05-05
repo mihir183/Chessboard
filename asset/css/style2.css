@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 805px;
+    /* height: 830px; */
+    aspect-ratio: 1;
+    margin: auto;
+    border: solid 2px black;
+}
+
+.box1, .box2{
+    width: calc(801px/8);
+    aspect-ratio: 1;
+    float: left;
+}
+
+.box1{
+    background-color: rgb(184, 178, 116);
+    color: black;
+}
+
+.box2{
+    background-color: rgb(36, 105, 38);
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.container p{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25% ;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.container p:hover{
+    transform: scale(1.2);
+}

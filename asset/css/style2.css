@@ -20,11 +20,17 @@
 .box1{
     background-color: rgb(184, 178, 116);
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box2{
     background-color: rgb(36, 105, 38);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clear{
@@ -35,7 +41,7 @@
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 25% ;
+    /* padding-top: 25% ; */
     font-weight: 600;
     transition: all 0.5s;
 }
